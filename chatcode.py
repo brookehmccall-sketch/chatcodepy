@@ -105,7 +105,7 @@ export default function App() {
   if (screen === "baselinePain") {
     return (
       <View>
-        <Text>Baseline Pain (0–10)</Text>
+        <Text>Baseline Pain (min_value=0, max_value=10)</Text>
         <TextInput
           keyboardType="numeric"
           onChangeText={(text) => setBaselinePain(Number(text))}
